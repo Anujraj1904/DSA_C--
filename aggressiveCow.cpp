@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 
-int canPlaceCows(vector<int> &positions, int N, int c, int minDist) {
+bool canPlaceCows(vector<int> &positions, int N, int c, int minDist) {
   int cows = 1;
   int lastPos = positions[0];
 
