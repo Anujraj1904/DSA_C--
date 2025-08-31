@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace Std;
+using namespace std;
 
 int main(){
   return 0;
