@@ -4,6 +4,13 @@
 
 using namespace std;
 
+bool isAlphaNum(char ch) {
+  if ((ch >= '0' && ch <= '9') || (tolower(ch) >= 'a' && tolower(ch) <= 'z')) {
+    return true;
+  }
+  return false;
+}
+
 bool isPalindrome(string str)
 {
   int st = 0;
@@ -11,7 +18,15 @@ bool isPalindrome(string str)
 
   while (st < end)
   {
-    if (str[st] != str[end])
+    if(!isAlphaNum (str[st])) {
+      st++;
+      continue;
+    }
+        if(!isAlphaNum (str[end])) {
+      end--;
+      continue;
+    }
+    if (tolower(str[st]) != tolower(str[end]))
     {
       return false;
     }
