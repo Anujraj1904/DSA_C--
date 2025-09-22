@@ -1,3 +1,5 @@
+// Finding out if a number is ODD or EVEN
+
 #include <iostream>
 using namespace std;
 
