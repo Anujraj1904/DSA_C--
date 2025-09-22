@@ -16,6 +16,26 @@ int main() {
     return 0;
 }
 
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Print without line break
+    cout << "Anuj";
+
+    // Print with line break using endl
+    cout << "Anuj" << endl;
+
+    // Print with line break using '\n'
+    cout << "Anuj" << '\n';
+    cout << "Anuj" << '\n';
+
+    // Print multiple lines using \n inside string
+    cout << "Anuj \n raj";
+
+    return 0;
+}
+
 
 
 <!-- ******************************************** -->
