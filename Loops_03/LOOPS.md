@@ -21,7 +21,7 @@ while (i < 5) {
 
 ### 2. For Loop
 - Best suited when the number of iterations is known in advance.
-- Has initialization, condition, and increment/decrement in a single line.
+- Has initialization, condition, and increment/decrement/updation in a single line.
 ```cpp
 int i =0;
 for (int i = 0; i < 5; i++) {
