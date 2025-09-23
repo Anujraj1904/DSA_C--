@@ -19,7 +19,7 @@ while (i < 5) {
 }
 
 
-### 2. For Loop
+### 2. ** For Loop**
 - Best suited when the number of iterations is known in advance.
 - Has initialization, condition, and increment/decrement/updation in a single line.
 ```cpp
@@ -28,7 +28,7 @@ for (int i = 0; i < 5; i++) {
   cout << i << " ";
 }
 
-### 3. Do-While Loop
+### 3. ** Do-While Loop **
 - Executes the block of code **at least once** before checking the condition.
 - Condition is checked **after** each iteration.
 
