@@ -2,21 +2,48 @@
 using namespace std;
 
 int main(){
-  int n =4;
-  char ch = 'A';
-  
-  for (int i = 0; i<n; i++){
-    // char ch = 'A'; 
-
+  // 1 1 1 1
+  //  2 2 2
+  //   3 3
+  //    4 
+  int n = 4;
+  for(int i=0; i<=n; i++){
     for(int j=0; j<i; j++){
-      cout << " ";
+      cout <<  " ";
     }
-    for(int j=0; j<n-i; j++){
-      cout << ch;     
-      // ch++;
+    for(int k =0; k<n-i; k++){
+      cout << (i+1) << " ";
     }
     cout << endl;
-    ch++;
   }
+
+  // 00000
+  // 11111
+  // 22222
+  // 33333
+  // 44444
+  // for(int i =0; i <= n; i++){
+  //     for(int j =0; j<=n; j++){
+  //       cout << i;
+  //     }
+  //     cout << endl;
+  // }
+
+  // 0123
+  // 0123
+  // 0123
+  // 0123
+   
+  // for (int i =0; i<n; i++){
+  //   for (int j =0; j<n; j++){
+  //     cout <<  j;
+  //   }
+  //   cout << endl;
+  // }
+
+  // 
+
+  
+
   return 0;
 }

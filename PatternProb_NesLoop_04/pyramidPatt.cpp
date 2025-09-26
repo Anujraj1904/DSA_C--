@@ -2,6 +2,10 @@
 using namespace std;
 
 int main() {
+  //    1
+  //   121
+  //  12321
+  // 1234321
   int n =4;
 
 for (int i = 0; i <n; i++){
